@@ -1,0 +1,157 @@
+   /*  Styles pour le body*/
+
+  body{
+        margin: 0;
+        font-family: 'roboto', sans-serif;
+        line-height: 1.6;
+        color: #2C2C2C;
+        background-color: rgba(228, 235, 233, 0.658);
+        background-repeat: repeat;
+    }
+    
+  /* Modifier l'affichage de la barre de navigation */
+        #navbar {
+        background-color: #80230c89;
+        margin: 0;
+        padding: 10px 0;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        text-align: center;
+        line-height: 2.7em;
+    }
+    
+    #navbar .Menu {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    #navbar .Menu li {
+    display: inline-block;
+    margin-right: 15px;
+   }
+
+    #navbar .Menu a {
+    text-decoration: none;
+    color: #1a1a1a;
+    padding: 10px;
+    font-size: 1.5em;
+    }
+    #navbar .Menu a:hover {
+        background-color: rgba(131, 95, 95, 0.418);
+        color: #3b3a3a;
+        border-radius: 5px;
+    }
+    
+    
+    h1{
+        text-align: center;
+        width: 100%;
+        margin-top: 100px;/*pour afficher le titre */
+    }
+    /*Modifier l'affichage des sections*/
+    section {
+    width: 60%;
+    margin: 0 auto;
+    font-size: 20px; 
+     }
+    #expériences a {  
+        text-decoration: none;
+        color: #383838;
+    }  
+    #expériences a:hover{
+    color: cadetblue;
+    }
+    /* Images avec leurs descriptive */
+    .f_images{
+        text-align: center;
+    }
+    .photo img{ 
+        display:block;
+        width:200px;
+        height: 130px;
+        margin: 0 auto;
+        border-radius: 5px;
+    }
+    .photo{
+        display: inline-block;
+        width: 40%;
+        background-color: #eed6ae;
+        border-radius: 30%;
+        padding: 10px;
+        margin: 0 auto;
+        text-align: center;
+        vertical-align: top;
+        margin: 10px;
+    }
+
+    .photo p{
+        font-size: 16px;
+        padding: 15px;
+        height: 80px;
+     
+    }
+    /*améliorer l'affichage de la form*/
+
+    .form_container{
+    line-height: 1.5em;
+    margin-bottom: 1em;
+    box-sizing: border-box;
+
+    }
+    label{  
+        display: block;
+        color: #1a1a1a;
+    }
+
+    .form_container input,textarea{
+        width: 80%;
+        line-height: 2.6em;
+        border-radius:5px;
+        border: none;
+        font-size: 16px;  
+     }
+     input,textarea[class="f_style"]
+     {
+        background-color: #000000d2;
+     }
+     .f_style::placeholder {
+        color: rgba(247, 247, 247, 0.892); 
+    }
+    #submit input{
+        display: block;
+        background-color:#02fc62;
+        color: white;
+        width: 50%;
+        margin: 0 auto;
+        line-height: 2.6em;
+        border-radius:5px;
+        border: none;
+        font-size: 20px; 
+    }
+    #submit input:hover {
+        background-color: #218838; 
+    }
+      /* footer*/
+      #footer {
+        background-color: #80230ce5;
+        color: white;
+        text-align: center;
+        padding: 20px 10px;
+        margin-top: 1.5em;
+    }
+    
+    
+    #footer a {
+        color: #ffcc00;
+        text-decoration: none;
+    }
+    
+    #footer a:hover {
+        text-decoration: underline;
+        color: white;
+    }
+    
+    
+    
